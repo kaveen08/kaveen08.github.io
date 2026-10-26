@@ -1,1 +1,0 @@
-import{d as a}from"./db.CkA5rwtt.js";import"./commonjsHelpers.Cpj98o6Y.js";a.lessons.toArray().then(o=>{const t=new Set(o.filter(e=>e.done).map(e=>e.id));document.querySelectorAll("[data-lesson-id]").forEach(e=>{t.has(e.dataset.lessonId??"")&&e.querySelector("[data-done-mark]")?.classList.remove("hidden")})}).catch(()=>{});
